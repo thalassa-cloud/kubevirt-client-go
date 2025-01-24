@@ -26,7 +26,7 @@ import (
 	watch "k8s.io/apimachinery/pkg/watch"
 	gentype "k8s.io/client-go/gentype"
 	v1 "kubevirt.io/api/core/v1"
-	scheme "kubevirt.io/client-go/kubevirt/scheme"
+	scheme "github.com/thalassa-cloud/kubevirt-client-go/kubevirt/scheme"
 )
 
 // VirtualMachinesGetter has a method to return a VirtualMachineInterface.

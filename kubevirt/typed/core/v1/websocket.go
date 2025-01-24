@@ -26,7 +26,7 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"kubevirt.io/client-go/subresources"
+	"github.com/thalassa-cloud/kubevirt-client-go/subresources"
 )
 
 const (

@@ -26,7 +26,7 @@ import (
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"
 	gentype "k8s.io/client-go/gentype"
-	scheme "kubevirt.io/client-go/externalsnapshotter/scheme"
+	scheme "github.com/thalassa-cloud/kubevirt-client-go/externalsnapshotter/scheme"
 )
 
 // VolumeSnapshotContentsGetter has a method to return a VolumeSnapshotContentInterface.

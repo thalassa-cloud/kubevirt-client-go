@@ -15,8 +15,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	rest "k8s.io/client-go/rest"
 
+	"github.com/thalassa-cloud/kubevirt-client-go/subresources"
 	v1 "kubevirt.io/api/core/v1"
-	"kubevirt.io/client-go/subresources"
 )
 
 type StreamOptions struct {

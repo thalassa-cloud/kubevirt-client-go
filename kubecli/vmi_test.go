@@ -36,9 +36,9 @@ import (
 	k8smetav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
+	"github.com/thalassa-cloud/kubevirt-client-go/api"
+	kvcorev1 "github.com/thalassa-cloud/kubevirt-client-go/kubevirt/typed/core/v1"
 	v1 "kubevirt.io/api/core/v1"
-	"kubevirt.io/client-go/api"
-	kvcorev1 "kubevirt.io/client-go/kubevirt/typed/core/v1"
 )
 
 var _ = Describe("Kubevirt VirtualMachineInstance Client", func() {

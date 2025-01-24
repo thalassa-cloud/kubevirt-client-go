@@ -22,7 +22,7 @@ package api
 import (
 	"testing"
 
-	"kubevirt.io/client-go/testutils"
+	"github.com/thalassa-cloud/kubevirt-client-go/testutils"
 )
 
 func TestV1(t *testing.T) {

@@ -21,7 +21,7 @@ package fake
 import (
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
-	v1 "kubevirt.io/client-go/prometheusoperator/typed/monitoring/v1"
+	v1 "github.com/thalassa-cloud/kubevirt-client-go/prometheusoperator/typed/monitoring/v1"
 )
 
 type FakeMonitoringV1 struct {

@@ -25,7 +25,7 @@ import (
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"
-	monitoringv1 "kubevirt.io/client-go/prometheusoperator/typed/monitoring/v1"
+	monitoringv1 "github.com/thalassa-cloud/kubevirt-client-go/prometheusoperator/typed/monitoring/v1"
 )
 
 type Interface interface {

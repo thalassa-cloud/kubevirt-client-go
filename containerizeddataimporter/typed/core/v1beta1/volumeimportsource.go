@@ -25,7 +25,7 @@ import (
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"
 	gentype "k8s.io/client-go/gentype"
-	scheme "kubevirt.io/client-go/containerizeddataimporter/scheme"
+	scheme "github.com/thalassa-cloud/kubevirt-client-go/containerizeddataimporter/scheme"
 	v1beta1 "kubevirt.io/containerized-data-importer-api/pkg/apis/core/v1beta1"
 )
 

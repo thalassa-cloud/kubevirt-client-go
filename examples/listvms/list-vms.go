@@ -10,7 +10,7 @@ import (
 	"github.com/spf13/pflag"
 	k8smetav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"kubevirt.io/client-go/kubecli"
+	"github.com/thalassa-cloud/kubevirt-client-go/kubecli"
 )
 
 func main() {

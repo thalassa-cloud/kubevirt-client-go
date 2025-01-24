@@ -26,7 +26,7 @@ import (
 	watch "k8s.io/apimachinery/pkg/watch"
 	gentype "k8s.io/client-go/gentype"
 	v1alpha2 "kubevirt.io/api/instancetype/v1alpha2"
-	scheme "kubevirt.io/client-go/kubevirt/scheme"
+	scheme "github.com/thalassa-cloud/kubevirt-client-go/kubevirt/scheme"
 )
 
 // VirtualMachineInstancetypesGetter has a method to return a VirtualMachineInstancetypeInterface.

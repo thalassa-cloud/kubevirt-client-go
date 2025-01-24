@@ -27,8 +27,8 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/client-go/testing"
 
+	fake2 "github.com/thalassa-cloud/kubevirt-client-go/testing"
 	v1 "kubevirt.io/api/core/v1"
-	fake2 "kubevirt.io/client-go/testing"
 )
 
 func (c *FakeVirtualMachineInstanceReplicaSets) GetScale(ctx context.Context, replicaSetName string, options metav1.GetOptions) (*autov1.Scale, error) {

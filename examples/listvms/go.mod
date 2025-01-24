@@ -1,4 +1,4 @@
-module kubevirt.io/kubevirt/staging/src/kubevirt.io/client-go/examples/listvms
+module kubevirt.io/kubevirt/staging/src/github.com/thalassa-cloud/kubevirt-client-go/examples/listvms
 
 go 1.12
 
@@ -22,5 +22,5 @@ require (
 	k8s.io/apimachinery v0.20.15
 	k8s.io/klog v0.3.3 // indirect
 	k8s.io/kube-openapi v0.0.0-20230501164219-8b0f38b5fd1f // indirect
-	kubevirt.io/client-go v0.19.0
+	github.com/thalassa-cloud/kubevirt-client-go v0.19.0
 )

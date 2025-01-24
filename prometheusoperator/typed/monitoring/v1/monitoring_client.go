@@ -23,7 +23,7 @@ import (
 
 	v1 "github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring/v1"
 	rest "k8s.io/client-go/rest"
-	"kubevirt.io/client-go/prometheusoperator/scheme"
+	"github.com/thalassa-cloud/kubevirt-client-go/prometheusoperator/scheme"
 )
 
 type MonitoringV1Interface interface {

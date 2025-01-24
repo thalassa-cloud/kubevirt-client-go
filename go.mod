@@ -1,4 +1,4 @@
-module kubevirt.io/client-go
+module github.com/thalassa-cloud/kubevirt-client-go
 
 go 1.23.0
 

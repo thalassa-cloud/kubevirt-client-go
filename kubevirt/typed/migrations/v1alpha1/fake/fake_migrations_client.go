@@ -21,7 +21,7 @@ package fake
 import (
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
-	v1alpha1 "kubevirt.io/client-go/kubevirt/typed/migrations/v1alpha1"
+	v1alpha1 "github.com/thalassa-cloud/kubevirt-client-go/kubevirt/typed/migrations/v1alpha1"
 )
 
 type FakeMigrationsV1alpha1 struct {

@@ -359,8 +359,8 @@ k8s.io/kube-openapi v0.0.0-20190228160746-b3a7cee44a30/go.mod h1:BXM9ceUBTj2QnfH
 k8s.io/kube-openapi v0.0.0-20230501164219-8b0f38b5fd1f h1:2kWPakN3i/k81b0gvD5C5FJ2kxm1WrQFanWchyKuqGg=
 k8s.io/kube-openapi v0.0.0-20230501164219-8b0f38b5fd1f/go.mod h1:byini6yhqGC14c3ebc/QwanvYwhuMWF6yz2F8uwW8eg=
 k8s.io/utils v0.0.0-20210802155522-efc7438f0176/go.mod h1:jPW/WVKK9YHAvNhRxK0md/EJ228hCsBRufyofKtW8HA=
-kubevirt.io/client-go v0.19.0 h1:VezmeMnDGUCx9EXE5bvGrt0KX1f1yUR4JDVwV3ImP6Y=
-kubevirt.io/client-go v0.19.0/go.mod h1:0kU0DisjVlbflsDPx5SJf+zDlU2+oHzkcir+YJEhmnw=
+github.com/thalassa-cloud/kubevirt-client-go v0.19.0 h1:VezmeMnDGUCx9EXE5bvGrt0KX1f1yUR4JDVwV3ImP6Y=
+github.com/thalassa-cloud/kubevirt-client-go v0.19.0/go.mod h1:0kU0DisjVlbflsDPx5SJf+zDlU2+oHzkcir+YJEhmnw=
 kubevirt.io/containerized-data-importer v1.8.1-0.20190516083534-83c12eaae2ed h1:LlA3Ss/dn65wYofQDo2hRY+Asq4aWVE6IC/WPCqKJoA=
 kubevirt.io/containerized-data-importer v1.8.1-0.20190516083534-83c12eaae2ed/go.mod h1:qF594BtRRkruyrqLwt3zbLCWdPIQNs1qWh4LR1cOzy0=
 sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd h1:EDPBXCAspyGV4jQlpZSudPeMmr1bNJefnuqLsRAsHZo=

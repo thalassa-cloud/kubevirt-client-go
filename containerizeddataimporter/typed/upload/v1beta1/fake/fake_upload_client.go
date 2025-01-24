@@ -21,7 +21,7 @@ package fake
 import (
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
-	v1beta1 "kubevirt.io/client-go/containerizeddataimporter/typed/upload/v1beta1"
+	v1beta1 "github.com/thalassa-cloud/kubevirt-client-go/containerizeddataimporter/typed/upload/v1beta1"
 )
 
 type FakeUploadV1beta1 struct {

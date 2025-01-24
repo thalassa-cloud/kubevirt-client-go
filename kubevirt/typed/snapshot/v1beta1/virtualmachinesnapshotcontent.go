@@ -26,7 +26,7 @@ import (
 	watch "k8s.io/apimachinery/pkg/watch"
 	gentype "k8s.io/client-go/gentype"
 	v1beta1 "kubevirt.io/api/snapshot/v1beta1"
-	scheme "kubevirt.io/client-go/kubevirt/scheme"
+	scheme "github.com/thalassa-cloud/kubevirt-client-go/kubevirt/scheme"
 )
 
 // VirtualMachineSnapshotContentsGetter has a method to return a VirtualMachineSnapshotContentInterface.

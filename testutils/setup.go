@@ -15,8 +15,8 @@ import (
 	"github.com/onsi/ginkgo/v2/reporters"
 	"github.com/onsi/gomega"
 
-	"kubevirt.io/client-go/log"
-	v1reporter "kubevirt.io/client-go/reporter"
+	"github.com/thalassa-cloud/kubevirt-client-go/log"
+	v1reporter "github.com/thalassa-cloud/kubevirt-client-go/reporter"
 )
 
 var afterSuiteReporters = []reporters.DeprecatedReporter{}

@@ -24,9 +24,9 @@ import (
 	"k8s.io/client-go/discovery"
 	fakediscovery "k8s.io/client-go/discovery/fake"
 	"k8s.io/client-go/testing"
-	clientset "kubevirt.io/client-go/prometheusoperator"
-	monitoringv1 "kubevirt.io/client-go/prometheusoperator/typed/monitoring/v1"
-	fakemonitoringv1 "kubevirt.io/client-go/prometheusoperator/typed/monitoring/v1/fake"
+	clientset "github.com/thalassa-cloud/kubevirt-client-go/prometheusoperator"
+	monitoringv1 "github.com/thalassa-cloud/kubevirt-client-go/prometheusoperator/typed/monitoring/v1"
+	fakemonitoringv1 "github.com/thalassa-cloud/kubevirt-client-go/prometheusoperator/typed/monitoring/v1/fake"
 )
 
 // NewSimpleClientset returns a clientset that will respond with the provided objects.

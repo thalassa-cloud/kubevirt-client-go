@@ -24,9 +24,9 @@ import (
 	"k8s.io/client-go/discovery"
 	fakediscovery "k8s.io/client-go/discovery/fake"
 	"k8s.io/client-go/testing"
-	clientset "kubevirt.io/client-go/externalsnapshotter"
-	snapshotv1 "kubevirt.io/client-go/externalsnapshotter/typed/volumesnapshot/v1"
-	fakesnapshotv1 "kubevirt.io/client-go/externalsnapshotter/typed/volumesnapshot/v1/fake"
+	clientset "github.com/thalassa-cloud/kubevirt-client-go/externalsnapshotter"
+	snapshotv1 "github.com/thalassa-cloud/kubevirt-client-go/externalsnapshotter/typed/volumesnapshot/v1"
+	fakesnapshotv1 "github.com/thalassa-cloud/kubevirt-client-go/externalsnapshotter/typed/volumesnapshot/v1/fake"
 )
 
 // NewSimpleClientset returns a clientset that will respond with the provided objects.

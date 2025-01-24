@@ -25,8 +25,8 @@ import (
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"
-	cdiv1beta1 "kubevirt.io/client-go/containerizeddataimporter/typed/core/v1beta1"
-	uploadv1beta1 "kubevirt.io/client-go/containerizeddataimporter/typed/upload/v1beta1"
+	cdiv1beta1 "github.com/thalassa-cloud/kubevirt-client-go/containerizeddataimporter/typed/core/v1beta1"
+	uploadv1beta1 "github.com/thalassa-cloud/kubevirt-client-go/containerizeddataimporter/typed/upload/v1beta1"
 )
 
 type Interface interface {
